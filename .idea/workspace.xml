@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a2c27d7-e508-4952-9063-415ea73e0f8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BI2_Projekt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datenbereinigung.py" afterDir="false" />
-    </list>
+    <list default="true" id="3a2c27d7-e508-4952-9063-415ea73e0f8f" name="Changes" comment="Nachkommastellen, Dateipfad mit Dialog aussuchen und speichern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nichtkarim"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nichtkarim/BI2_Projekt.git",
+    "accountId": "f0adabb7-e862-477a-98e2-28086e7d3c8a"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -73,14 +77,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749056316477</updated>
-      <workItem from="1749056317603" duration="820000" />
+      <workItem from="1749056317603" duration="2688000" />
     </task>
+    <task id="LOCAL-00001" summary="Nachkommastellen, Dateipfad mit Dialog aussuchen und speichern">
+      <option name="closed" value="true" />
+      <created>1749057187086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749057187086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nachkommastellen, Dateipfad mit Dialog aussuchen und speichern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nachkommastellen, Dateipfad mit Dialog aussuchen und speichern" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BI2_Projekt$Datenbereinigung.coverage" NAME="Datenbereinigung Coverage Results" MODIFIED="1749056648377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BI2_Projekt$Datenbereinigung.coverage" NAME="Datenbereinigung Coverage Results" MODIFIED="1749057290943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
