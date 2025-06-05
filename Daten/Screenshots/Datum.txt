@@ -1,0 +1,1 @@
+TO_DATE(CAST("InvoiceDate" AS VARCHAR), 'YYYY-MM-DD HH24:MI:SS')
