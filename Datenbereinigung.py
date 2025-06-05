@@ -14,6 +14,7 @@ df = pd.read_csv(input_path, encoding="latin1")
 
 # Stornobelege entfernen (InvoiceNo beginnt mit "C")
 df = df[~df['InvoiceNo'].astype(str).str.startswith('C')]
+df = df[~df['InvoiceNo'].astype(str).str.startswith('A')]
 
 # Datensätze mit Quantity ≤ 0 entfernen
 df = df[df['Quantity'] > 0]
@@ -27,7 +28,6 @@ df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'], errors='coerce')
 # Berechnete Spalte TotalPrice
 df['TotalPrice'] = df['Quantity'] * df['UnitPrice']
 df['TotalPrice'] = df['TotalPrice'].round(2)
-
 
 # Dialog zum Speichern der Ausgabedatei
 output_path = filedialog.asksaveasfilename(
